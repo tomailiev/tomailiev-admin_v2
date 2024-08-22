@@ -43,3 +43,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     - install dev dependencies: npm install cross-env --save-dev
     - set up emulation script in package.json: "emulate": "cross-env REACT_APP_EMULATORS=1 react-scripts start"
 - commit your changes!
+- copy all the content from the admin_blank package into your base folder
+- copy the content from .firebase-init.js found in the src/utils/firebase folder into your firebase-init.js file (follow the instructions written as comments in the .firebase-init.js file) 
+- run your project with npm start to make sure it works
+- commit your changes again!
