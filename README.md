@@ -46,4 +46,10 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 - copy all the content from the admin_blank package into your base folder
 - copy the content from .firebase-init.js found in the src/utils/firebase folder into your firebase-init.js file (follow the instructions written as comments in the .firebase-init.js file) 
 - run your project with npm start to make sure it works
-- commit your changes again!
+- commit your changes!
+- in another folder set up firebase functions (firebase init functions)
+- copy the functions_blank package into the functions folder in your project
+- install dependencies: npm install dotenv nodemailer nodemailer-html-to-text mjml
+- set up your environment by populating the .env values, "type":"module", and adding "serveAll": "firebase emulators:start", to the scripts in package.json
+- serve the backend "npm run serve" from the functions folder
+- emulate the frontend "npm run emulate" from the admin folder
